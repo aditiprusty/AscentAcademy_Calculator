@@ -8,4 +8,4 @@ Tech stack used: HTML, CSS, JavaScript
 <br>
 @AscentAcademy
 <br><br>
-To view website, click here: 
+To view website, click here: https://aditiprusty.github.io/AscentAcademy_Calculator/
