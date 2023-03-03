@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; 
+    background-size: 100% 100%;
+}
+
+.bg-image{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200703/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image_340649.jpg");
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 80%;
+    padding: 20px;
+    text-align: center;  
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    padding-top: 30px;
+    background-color: antiquewhite;
+    width: 27%;
+    padding-bottom: 30px;
+    border-style: hidden;
+}
